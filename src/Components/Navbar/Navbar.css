@@ -1,0 +1,22 @@
+.forRes{
+   @apply hidden lg:block
+}
+.navmenu{
+    @apply flex justify-center items-center w-full h-[69px] mt-[41px] 
+}
+.menurow{
+    @apply flex justify-between items-center
+}
+.navlogo{
+    @apply w-[251px] h-[44px]
+}
+.menulinks{
+    @apply flex justify-center items-center gap-[25px]
+}
+.linksep{
+    @apply font-medium text-[24px] text-white/50 hover:font-bold hover:text-white font-montserrat
+}
+.menubutton{
+    @apply px-[26px] py-[20px] rounded-[20px] text-[24px] text-brandcolor bg-white/10 shadow-md font-bold
+    font-montserrat hover:bg-brandcolor hover:text-white duration-300 active:scale-90
+}
