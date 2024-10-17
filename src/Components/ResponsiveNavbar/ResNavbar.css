@@ -1,0 +1,27 @@
+.forMobMenu{
+    @apply absolute w-full lg:hidden mt-[50px] px-[35px] md:px-[50px]
+}
+.buttonlogo{
+    @apply relative flex justify-between items-center
+}
+.ResNavlogo{
+    @apply w-[200px] md:h-[35px] h-[31px]
+}
+.pagesButton{
+    @apply w-[45px] h-[45px] rounded-[10px] bg-[rgba(196,196,196,0.15)] flex justify-center items-center text-[30px] text-white
+}
+.ResPageCol{
+    @apply absolute top-14 left-0 bg-[#1e269b] w-full h-[300px] rounded-xl py-5;
+    animation: RiseMenu linear .7s;
+}
+@keyframes RiseMenu{
+    0%{
+        left: -50rem;
+    }
+    100%{
+        left: 0%
+    }
+}
+.linksRes{
+    @apply flex flex-col justify-center items-center gap-5
+}
