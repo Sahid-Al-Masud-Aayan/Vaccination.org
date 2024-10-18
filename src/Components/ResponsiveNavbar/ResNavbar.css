@@ -1,5 +1,5 @@
 .forMobMenu{
-    @apply absolute w-full lg:hidden mt-[50px] px-[35px] md:px-[50px]
+    @apply w-full lg:hidden pt-[50px] px-[35px] md:px-[50px]
 }
 .buttonlogo{
     @apply relative flex justify-between items-center

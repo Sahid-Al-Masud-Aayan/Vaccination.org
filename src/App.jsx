@@ -8,9 +8,7 @@ function App() {
   const controller = createBrowserRouter(
     createRoutesFromElements(
       <Route>
-        <Route path='/' element={<LayoutOne/>}>
         <Route index element={<Home/>}/>
-        </Route>
       </Route>
     )
   )

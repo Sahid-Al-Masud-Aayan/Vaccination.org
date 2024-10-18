@@ -2,7 +2,7 @@
    @apply hidden lg:block
 }
 .navmenu{
-    @apply flex justify-center items-center w-full h-[69px] mt-[41px] 
+    @apply flex justify-center items-center w-full h-[69px] pt-[41px] mb-[101px]
 }
 .menurow{
     @apply flex justify-between items-center

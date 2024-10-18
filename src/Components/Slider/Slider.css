@@ -1,0 +1,9 @@
+.slidBody{
+    @apply w-full h-[150px] bg-white
+}
+.linedUpCenter{
+    @apply flex justify-center items-center pt-[21px] pb-[10px]
+}
+.sideImages{
+    @apply flex justify-center items-center gap-[48px]
+}

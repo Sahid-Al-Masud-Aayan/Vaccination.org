@@ -1,0 +1,29 @@
+.inputArea{
+    @apply w-full h-full bg-offwhite rounded-[20px]
+}
+.topHeader{
+    @apply bg-offwhite w-full h-[100px] rounded-t-[20px]
+}
+.InpFlex{
+    @apply pt-[35px] flex justify-center items-center gap-[20px]
+}
+.MainInp{
+    @apply w-[450px] h-[68px] bg-transparent border-[3px] rounded-[20px] outline-4
+    outline-brandcolor pl-[25px] text-white font-montserrat text-[24px]
+    border-offwhite
+}
+.InpButton{
+    @apply w-[173px] h-[69px] border-2 border-brandcolor rounded-[20px]
+    hover:bg-brandcolor duration-150 font-bold text-[24px] font-montserrat
+    text-brandcolor flex justify-center items-center bg-offwhite hover:text-white
+}
+.conclusion{
+    @apply w-[1113px] h-[70px] bg-offwhite rounded-[20px] ml-[130px] mt-[34px] 
+    flex justify-center items-center
+}
+.bluText{
+        @apply font-bold text-[24px] font-montserrat text-brandcolor
+}
+.linkedUp{
+    @apply hover:underline
+}

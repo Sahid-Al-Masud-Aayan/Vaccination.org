@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className="forRes">
-    <nav className='navmenu absolute'>
+    <nav className='navmenu'>
       <div className="container px-[70px]">
         <div className="menurow">
           <Link to='/'>

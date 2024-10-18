@@ -10,7 +10,8 @@ export default {
     },
     extend: {
       colors:{
-        brandcolor: '#17C2EC'
+        brandcolor: '#17C2EC',
+        offwhite: '#C4C4C41A'
       }
     },
     container:{

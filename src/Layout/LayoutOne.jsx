@@ -6,9 +6,9 @@ import ResNavbar from '../Components/ResponsiveNavbar/ResNavbar'
 const LayoutOne = () => {
   return (
     <>
-      <Navbar/>
-      <ResNavbar/>
-      <Outlet/>
+      {/* <Navbar/> */}
+      {/* <ResNavbar/> */}
+      {/* <Outlet/> */}
     </>
   )
 }
