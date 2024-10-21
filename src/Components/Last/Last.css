@@ -1,6 +1,6 @@
 .BlueHeader{
     @apply text-[24px] font-montserrat font-bold text-brandcolor 
-    uppercase text-center
+    uppercase text-center mt-[57px]
 }
 .BlueSub{
     @apply text-[48px] font-montserrat font-extrabold text-black text-center

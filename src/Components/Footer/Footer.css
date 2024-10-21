@@ -1,0 +1,13 @@
+.grayBg{
+    @apply w-full h-[215px] bg-[#e1e7e8]
+}
+.footerbt{
+    @apply flex justify-between items-center container pl-[67px]
+    pr-[79px] pt-[328px]
+}
+.socials{
+    @apply flex gap-[10px] items-center
+}
+.iconed{
+    @apply text-white text-[50px]
+}

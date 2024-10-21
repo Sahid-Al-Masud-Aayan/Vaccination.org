@@ -6,6 +6,7 @@ import Reason from '../Components/Reason/Reason'
 import VaccineToday from '../Components/VaccineToday/VaccineToday'
 import Symp from '../Components/Symptoms/Symp'
 import Last from '../Components/Last/Last'
+import Footer from '../Components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
     <VaccineToday/>
     <Symp/>
     <Last/>
+    <Footer/>
     </>
   )
 }

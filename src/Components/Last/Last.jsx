@@ -5,8 +5,8 @@ import { FiSend } from "react-icons/fi";
 const Last = () => {
   return (
     <>
-      <div className=" bg-[#ebebeb] w-full h-[934px] flex justify-center items-center">
-      <div className="flex justify-center items-center">
+      <div className=" bg-[#ebebeb] w-full h-[934px] flex justify-center">
+      <div className="">
   <div className="mainbanner bg-[url('/vaccine.png')] bg-center bg-cover w-[1184px] h-[478px]">
     <h1 className="BlueHeader">
       Feedback
