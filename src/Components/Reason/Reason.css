@@ -1,0 +1,60 @@
+.padderLined{
+   @apply w-full h-[794px] px-[71px] pt-[57px] pb-[80px]
+}
+.betweenText{
+    @apply flex justify-between items-center
+}
+.largeHeaderText{
+    @apply text-[48px] font-bold font-montserrat text-white
+}
+.destext{
+    @apply text-[20px] font-normal font-montserrat text-white/50 
+    w-[536px]
+}
+.flexedCard{
+    @apply flex justify-between mt-[40px]
+}
+.bigCd{
+    @apply w-[450px] h-[500px] bg-offwhite rounded-tr-[150px] rounded-[50px]
+    pt-[40px] pb-[73px] pl-[40px] pr-[55px]
+}
+.LarIcondiv{
+    @apply w-[100px] h-[100px] rounded-[30px] bg-offwhite p-[15px] mb-[39px]
+}
+.shieldcon{
+    @apply text-[70px] text-brandcolor 
+}
+.cardHeader{
+    @apply text-[24px] text-brandcolor font-montserrat font-bold mb-[30px]
+}
+.CardDes{
+    @apply text-[18px] text-white font-medium font-montserrat mb-[40px]
+}
+.flexedLink{
+    @apply flex items-center gap-[10px] text-[18px]
+    text-brandcolor font-bold font-montserrat
+}
+
+.SmallCd{
+    @apply w-[350px] h-[350px] border-white/50 border-[3px] rounded-[50px]
+    pt-[40px] pb-[59px] pl-[40px] pr-[52px] mt-[150px]
+}
+.SmallIcondiv{
+    @apply w-[70px] h-[70px] rounded-[20px] bg-offwhite p-[10px] mb-[30px]
+}
+.pplcon{
+    @apply text-[49px] text-white 
+}
+.cardHeaderW{
+    @apply text-[24px] text-white font-montserrat font-bold mb-[52px]
+}
+.CardDes{
+    @apply text-[18px] text-white font-medium font-montserrat mb-[40px]
+}
+.flexedLinkSm{
+    @apply flex items-center gap-[10px] text-[18px]
+    text-white/50 font-bold font-montserrat
+}
+.cardHeaderWm{
+    @apply text-[24px] text-white font-montserrat font-bold mb-[81px]
+}

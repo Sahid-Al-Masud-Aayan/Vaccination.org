@@ -6,7 +6,7 @@ const DBInput = () => {
   return (
     <>
       <div className="mainbanner bg-[url('/banner2.png')] w-full h-[466px] px-[70px] py-[63px]">
-      <div className="inputArea relative">
+      <div className="inputArea container relative">
         <div className="topHeader absolute">
         <h2 className='ScheduleTxt my-[35px] ml-[93px]'>Check your COVID-19 result on our Database</h2>
         <div className="InpFlex">

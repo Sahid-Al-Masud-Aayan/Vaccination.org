@@ -1,0 +1,33 @@
+.paddedSec{
+    @apply pt-[40px] pl-[70px] pr-[74px] 
+}
+.toFlexthem{
+    @apply flex justify-between items-center
+}
+.blackHeader{
+    @apply font-montserrat text-black font-bold text-[48px] mb-[40px]
+}
+.inputsLabel{
+    @apply font-montserrat text-black font-bold text-[24px] mb-[20px]
+}
+.firstInp{
+    @apply w-[650px] h-[70px] rounded-[20px] outline-none bg-[#d5d8de]
+    pl-[30px] mb-[40px]
+}
+.inpDes{
+    @apply font-montserrat font-medium text-[20px] text-black/50 mb-[20px]
+}
+.sectInp{
+    @apply w-[400px] h-[70px] rounded-[20px] outline-none bg-[#d5d8de]
+    pl-[134px] mb-[40px]
+}
+.verV{
+    @apply w-[214px] h-[69px] border-2 border-brandcolor rounded-[20px]
+    bg-brandcolor duration-150 font-bold text-[24px] font-montserrat
+    text-white flex justify-center items-center
+}
+.LargeSubButton{
+    @apply w-[650px] h-[69px] border-2 border-brandcolor rounded-[20px]
+    bg-brandcolor duration-150 font-bold text-[24px] font-montserrat
+    text-white flex justify-center items-center
+}

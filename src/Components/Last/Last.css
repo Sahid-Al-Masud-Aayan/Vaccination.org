@@ -1,0 +1,58 @@
+.BlueHeader{
+    @apply text-[24px] font-montserrat font-bold text-brandcolor 
+    uppercase text-center
+}
+.BlueSub{
+    @apply text-[48px] font-montserrat font-extrabold text-black text-center
+    mt-[20px]
+}
+.desBlued{
+    @apply text-[24px] font-montserrat font-medium text-black/50
+     text-center mt-[40px]
+}
+.toFlexLasted{
+    @apply flex gap-[45px] mt-[100px]
+}
+.boxed{
+   @apply w-[400px] h-[250px] bg-offwhite/50 rounded-[20px] 
+   hover:bg-brandcolor duration-200 hover:shadow-xl
+}
+.flexedInBox{
+    @apply flex gap-[20px] items-center mt-[30px] ml-[30px]
+}
+.column{
+    @apply flex flex-col gap-[5px]
+}
+.clientName{
+    @apply text-[24px] font-montserrat font-bold text-black 
+    
+}
+.located{
+    @apply text-[14px] font-montserrat font-bold text-black/50 
+}
+.cldes{
+    @apply text-center text-[18px] font-montserrat font-medium
+    text-black/60 mt-[40px] 
+}
+.mailer{
+    @apply w-[1031px] h-[400px] mt-[110px] bg-brandcolor rounded-[50px]
+    shadow-[0px_0px_0px_10px_#00000009]
+}
+.centerdItem{
+    @apply flex justify-center items-center 
+}
+.colled{
+    @apply flex flex-col justify-center items-center
+}
+.suggesterforu{
+    @apply text-[24px] font-montserrat font-medium text-white
+    mt-[20px] 
+}
+.lastInp{
+    @apply w-[450px] h-[75px] bg-white outline-none rounded-l-[30px]
+    pl-[40px]
+}
+.lastever{
+    @apply w-[100px] h-[75px] bg-[#0b153c] rounded-r-[30px]
+    flex justify-center items-center
+}

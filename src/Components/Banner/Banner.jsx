@@ -13,7 +13,7 @@ const Banner = () => {
     <>
       <div className="mainbanner bg-[url('/banner.png')] w-full h-[1024px] ">
     <Navbar/>
-    <ResNavbar/>
+    <ResNavbar/>                                                                                                                                                                                          
     <div className="padder container">
       <div className="bannerPartMain ">
         <div className="firstTextPart">

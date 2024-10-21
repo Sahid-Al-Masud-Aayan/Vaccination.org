@@ -1,0 +1,18 @@
+.headerSymp{
+    @apply text-center pt-[67px] mb-[20px] text-[24px] font-bold text-white
+     font-montserrat
+}
+.Pup{
+    @apply font-extrabold text-[48px] font-montserrat text-white text-center
+    mb-[40px]
+
+}
+.spammedUp{
+    @apply text-brandcolor
+}
+.blurredUpText{
+    @apply font-medium font-montserrat text-[24px] text-white/50 text-center
+}
+.imageIs{
+    @apply flex justify-center items-center mt-[67px]
+}

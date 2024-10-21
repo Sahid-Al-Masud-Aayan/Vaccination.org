@@ -17,13 +17,13 @@ const ResNavbar = () => {
             <Link to='/'>
           <img className='ResNavlogo' src={logo} alt="logo" />
             </Link>
-            <div onClick={()=>setOpen(!open)} className='pagesButton'>
-            <FaAlignRight />
+            <div className='pagesButton'>
+            <FaAlignRight onClick={()=>setOpen(true)} />
                 {
                     open&&
         <div className="ResPageCol">
             <div className="flex justify-end items-center mr-5">
-                <IoCloseCircle/>
+                <IoCloseCircle onClick={()=>setOpen(false)} />
             </div>
             <div className="linksRes">
             <Link to='#' className='linksep'>
